@@ -1,0 +1,12 @@
+package org.mgreis.model;
+
+public enum ReturnCode {
+    NO_ERROR(0),
+    ERROR(1);
+
+    private int nCode;
+
+    private ReturnCode(int nCode) {
+        this.nCode = nCode;
+    }
+}
